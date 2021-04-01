@@ -3,8 +3,8 @@ const server = http.createServer((req,res)=>{
      res.writeHead(200,{'Content-Type':'application/json'})
      res.end(`{
       "Name" :'Success Ogbenna',
-      "Career": 'Engineering','Software Developer',
-      "Experience": 'Junior Software Engineer'
+      "Hobbies": 'Engineering','Software Developer',
+      "Country": 'Nigeria'
      }`)   
 })
 const port = 5000
